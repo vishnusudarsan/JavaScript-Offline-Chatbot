@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>JS Chatbot</title>
+    <meta name="description" content="JS Chatbot" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/app.css" />
+</head>
+
+<body>
+    <div class="menu">
+        <div class="back">
+            <img src="./assets/images/bot.png" draggable="false" />
+        </div>
+        <div class="name">Chatbot</div>
+        <div class="last"></div>
+    </div>
+    <ol class="chat" id="chat-box">
+    </ol>
+    <input id="chat-question" class="textarea" type="text" placeholder="Type here!" />
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/elasticlunr.min.js"></script>
+    <script src="./assets/js/kb.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
